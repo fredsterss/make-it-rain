@@ -1,0 +1,41 @@
+<html>
+<head>
+	<title></title>
+<script src='../build/build.js'></script>
+<link href='../build/build.css' rel='stylesheet'>
+
+<style>
+.thumb {
+	width: 175px;
+	margin-left: 520px;
+}
+
+body {
+  margin: 0;
+}
+
+</style>
+</head>
+<body>
+
+<div class="container"></div>
+
+<script>
+var Zoom = require('image-zoom');
+var z = new Zoom(document.querySelector('img')).margin(20);
+z.on('showing', function(){
+  console.log('showing');
+});
+z.on('show', function(){
+  console.log('show');
+});
+z.on('hiding', function(){
+  console.log('hiding');
+});
+z.on('hide', function(){
+  console.log('hide');
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "make-it-rain",
+  "repo": "fredsterss/make-it-rain",
+  "description": "",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": [
+    "lib/index.js"
+  ],
+  "styles": [
+    "lib/index.css"
+  ],
+  "remotes": []
+}
